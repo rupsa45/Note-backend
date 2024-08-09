@@ -105,7 +105,7 @@ DATABASES = {
 }
 
 
-DATABASES["default"]=dj_database_url.parse("postgres://note_django_proj_user:JfeuG62Ht0B5t1FhUTkiDr6TXyyfrd3z@dpg-cot2jba1hbls73au62k0-a.oregon-postgres.render.com/note_django_proj")
+DATABASES["default"]=dj_database_url.parse("postgres://default:PsepJoh18DlE@ep-broad-snowflake-a44volzo.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require")
 
 
 
